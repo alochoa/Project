@@ -1,0 +1,36 @@
+h2 {
+	font-size: 22px;
+	font-family: Garamond;
+	color: blue;
+}
+
+#formbox {
+	border: 1px dashed blue;
+	/*text-align: center;*/
+	background-color: lightblue;
+	padding-bottom: 20px;
+	border-radius: 5px;
+	padding-left: 50px;
+}
+.center {
+	margin-right: auto;
+	/*margin-left: auto;*/
+	width: 250px;
+
+}
+
+input[type=text]:hover {
+        /*background-color: lightcyan;*/
+        border-color:#999999;
+        /*margin-right: 50px;*/
+        /*width: 150px;*/
+        /*display: block;*/
+}
+
+fieldset {
+  border-width: 2px;
+  /* size: a5; */
+  padding: 50px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}

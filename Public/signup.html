@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Project</title>
+	<link rel="stylesheet" href="Stylesheets/style.css">
+</head>
+<body>
+	<div id="formbox">
+	<div class="center">
+		<h2>Sign Up</h2>
+		<form method="Post" action="/signup">
+		<fieldset>
+		<legend>Sign Up</legend>
+			<p>
+				<label for="Name-field">First Name</label>
+				<input type="text" name="Username" id="Name-field">
+			</p>
+			<p>
+				<label for="Last-field">Last Name</label>
+				<input type="text" name="LastName" id="Last-field">
+			</p>
+			<p>
+				<label for="Email-field">Email</label>
+				<input type="text" name="Email" id="Email-field">
+			</p>
+			<p>
+				<label for="Password-field">Password</label>
+				<input type="password" name="Password" id="Password-field">
+			</p>
+			<p>
+				<label for="Retype-field">Retype Password</label>
+				<input type="password" name="Retype" id="retype-field">
+			</p>
+			<p>
+				<label for="Howdidyou-field">How did you hear about us?</label>
+				<select>
+					<option value="Friend">Friend</option>
+					<option value="Search">Search</option>
+					<option value="Fairy">Fairy</option>
+					<option value="Ghost">Ghost</option>
+				</select>
+				<!-- <input list="Howdidyou-field" name="Howdidyou">
+				<datalist id="Howdidyou-field">
+					<option value="Friend">
+					<option value="Search">
+					<option value="Fairy">
+					<option value="Ghost">
+				</datalist> -->
+			</p>
+			<p>
+				<label for="age-field">I am at least 18yrs old</label>
+				<input type="checkbox" name="agetickbox" id="age-field">
+			</p>
+			<button>Submit</button>
+		</fieldset>
+		</form>
+		</div>
+	</div>
+</body>
+</html>
