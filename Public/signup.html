@@ -2,36 +2,38 @@
 <html>
 <head>
 	<title>My Project</title>
+	
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,100' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 	<link rel="stylesheet" href="Stylesheets/style.css">
 </head>
 <body>
-	<div id="formbox">
+	<div id="formbox" class="col-md-6">
 	<div class="center">
-		<h2>Sign Up</h2>
 		<form method="Post" action="/signup">
 		<fieldset>
 		<legend>Sign Up</legend>
-			<p>
+			<p class="form-group">
 				<label for="Name-field">First Name</label>
 				<input type="text" name="Username" id="Name-field">
 			</p>
-			<p>
+			<p class="form-group">
 				<label for="Last-field">Last Name</label>
 				<input type="text" name="LastName" id="Last-field">
 			</p>
-			<p>
+			<p class="form-group">
 				<label for="Email-field">Email</label>
 				<input type="text" name="Email" id="Email-field">
 			</p>
-			<p>
+			<p class="form-group">
 				<label for="Password-field">Password</label>
 				<input type="password" name="Password" id="Password-field">
 			</p>
-			<p>
+			<p class="form-group">
 				<label for="Retype-field">Retype Password</label>
 				<input type="password" name="Retype" id="retype-field">
 			</p>
-			<p>
+			<p class="form-group">
 				<label for="Howdidyou-field">How did you hear about us?</label>
 				<select>
 					<option value="Friend">Friend</option>
@@ -47,11 +49,11 @@
 					<option value="Ghost">
 				</datalist> -->
 			</p>
-			<p>
+			<p class="form-group">
 				<label for="age-field">I am at least 18yrs old</label>
 				<input type="checkbox" name="agetickbox" id="age-field">
 			</p>
-			<button>Submit</button>
+			<button type="submit" class="btn btn-default">Sign me up!</button>
 		</fieldset>
 		</form>
 		</div>
